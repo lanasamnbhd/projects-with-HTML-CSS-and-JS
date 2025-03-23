@@ -3,33 +3,33 @@
 
 <head>
     <style>
-        /* Styling the body */
+        /* styling the body */
         * {
             padding: 0;
             margin: 0;
         }
 
-        /* Styling the background image by 
+        /* styling the background image by 
         giving its url and position */
         .container {
             height: 100vh;
             width: 100%;
             background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20210402235143/background.jpg');
 
-            /* Image used: */
+            /* image used: */
             background-size: cover;
             background-position: center;
             position: relative;
         }
 
-        /* Styling the list tags to the 
+        /* styling the list tags to the 
         right of the navigation bar */
         .nav li {
             float: right;
             list-style: none;
         }
 
-        /* Styling the anchor tags of 
+        /* styling the anchor tags of 
         the navigation bar */
         .nav a {
             list-style: none;
@@ -43,7 +43,7 @@
             text-decoration: none;
         }
 
-        /* Giving position and margin 
+        /* giving position and margin 
         to the content-div */
         .content {
             width: 100%;
@@ -51,20 +51,20 @@
             top: 45%;
         }
 
-        /* Styling the left-col by 
+        /* styling the left-col by 
         giving margin */
         .left-col {
             margin-left: 11%;
         }
 
-        /* Styling the my sound placed 
+        /* styling the my sound placed 
         in the left-col */
         .left-col h1 {
             font-size: 50px;
             color: crimson;
         }
 
-        /* Styling the right-col */
+        /* styling the right-col */
         .right-col {
             float: right;
             margin-right: 10%;
@@ -73,7 +73,7 @@
             align-items: center;
         }
 
-        /* Styling the text in the right-col */
+        /* styling the text in the right-col */
         .right-col p {
             font-size: 21px;
             color: black;
@@ -81,7 +81,7 @@
             margin-right: 20px;
         }
 
-        /* Styling the cursor type 
+        /* styling the cursor type 
         of the icon to pointer */
         #icon {
             cursor: pointer;
@@ -121,19 +121,19 @@
         let mysound = document.getElementById("mysound");
         let icon = document.getElementById("icon");
 
-        // Creating a function that will change 
+        // creating a function that will change 
         // pause to play and vice-versa
         icon.onclick = function () {
             if (mysound.paused) {
 
-                // If paused then play the 
+                // if paused then play the 
                 // music and change the image
                 mysound.play();
                 icon.src =
 "https://media.geeksforgeeks.org/wp-content/uploads/20210402235545/Pause.png";
             } else {
 
-                // If playing then pause the
+                // if playing then pause the
                 // music and change the image
                 mysound.pause();
                 icon.src =
