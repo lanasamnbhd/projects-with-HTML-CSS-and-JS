@@ -6,7 +6,7 @@
     padding: 0px;
 }
 
-/*Header Styling*/
+/*header styling*/
 #top {
     color: rgb(245, 10, 10);
     text-align: center;
@@ -31,7 +31,7 @@
     margin-bottom: 3px;
 }
 
-/*Navbar Functionality*/
+/*navbar functionality*/
 #navbar {
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@
     border-radius: 15px;
 }
 
-/*Navbar content functionality*/
+/*navbar content functionality*/
 #navcontent {
     display: flex;
     justify-content: center;
